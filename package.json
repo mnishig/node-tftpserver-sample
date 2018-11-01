@@ -1,0 +1,16 @@
+{
+  "name": "tftp",
+  "version": "1.0.0",
+  "description": "tftp test",
+  "main": "index.js",
+  "author": "mnishig",
+  "license": "MIT",
+  "dependencies": {
+    "tftp": "^0.1.2"
+  },
+  "scripts": {
+    "index": "node index.js",
+    "ntftp": "ntftp",
+    "hi": "./hi.js"
+  }
+}
