@@ -11,6 +11,6 @@
   "scripts": {
     "index": "node index.js",
     "ntftp": "ntftp",
-    "hi": "./hi.js"
+    "tftp":  "node index.js"
   }
 }
