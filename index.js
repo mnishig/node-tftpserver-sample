@@ -3,18 +3,12 @@
 const tftp = require('tftp');
 const option = require('./config');
 
-/*
-const option = {
-  host: '127.0.0.1',
-  port: 69,
-  root: './bootfile',
-  denyPUT: true
-};
-*/
 
 // [options], listening handler
 const server = tftp.createServer (option);
 
+console.log('opt: ');
+console.log(option);
 
 server.on('error', function (err) {
   console.error('Error: ');
